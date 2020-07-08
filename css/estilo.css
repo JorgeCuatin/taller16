@@ -1,0 +1,72 @@
+
+body{
+    background-image: url(https://lacuina.cl/images/bg_top_img.jpg);
+    /* background-position: center;
+    background-repeat: no-repeat; */
+}
+
+ul{
+    margin: 0;
+    margin-bottom: 50px;
+    list-style-type: none;
+    overflow: visible;
+    background-color: rgb(185, 255, 128);
+}
+
+ul ul{
+
+    margin: 0;
+    list-style-type: none;
+    overflow: visible;
+    padding: 0;
+    background-color: rgb(165, 165, 165);
+    display: flex;
+    flex-direction: column;
+    color: rgb(211, 206, 135);
+}
+
+ul ul li:hover{
+    background-color: rgb(255, 255, 255);
+}
+
+.dropdown-content {
+    display: none;
+
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+ 
+
+li{
+    float: left
+}
+
+li a{
+    display: block;
+    background-color: black;
+    padding: 20px 16px;
+    text-decoration: none;
+    color: rgb(211, 206, 135);
+}
+
+li a:hover{
+    background-color: rgb(122, 122, 122);
+}
+
+p{
+    display: flex;    
+    flex-direction: column;
+    align-items:center;
+    font-size: 30px;
+    color: rgb(211, 206, 135);
+}
+
+main{
+    background-position: center;
+    background-image: url("../img/pastel.jpg");
+    padding: 100px 100px;
+    margin: 50px;
+    background-size: 500px;
+}
